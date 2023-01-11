@@ -1,8 +1,8 @@
 """Main entry point."""
 
 import argparse
-import gif_your_nifti.config as cfg
-from gif_your_nifti import core, __version__
+import nifti2gif.config as cfg
+from nifti2gif import core, __version__
 import warnings  # mainly for ignoring imageio warnings
 warnings.filterwarnings("ignore")
 
@@ -44,7 +44,7 @@ def main():
     cfg.cmap = args.cmap
 
     # Welcome message
-    welcome_str = '{} {}'.format('gif_your_nifti', __version__)
+    welcome_str = '{} {}'.format('nifti2gif', __version__)
     welcome_decor = '=' * len(welcome_str)
     print('{}\n{}\n{}'.format(welcome_decor, welcome_str, welcome_decor))
 

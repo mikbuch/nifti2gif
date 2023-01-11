@@ -1,6 +1,6 @@
-"""Example usage of gif_your_nifti."""
+"""Example usage of nifti2gif."""
 
-import gif_your_nifti.core as gif2nif
+import nifti2gif.core as gif2nif
 
 filename = 'mni_icbm152_t1_tal_nlin_asym_09c.nii'
 

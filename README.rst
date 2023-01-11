@@ -4,7 +4,11 @@
 [![GitHub Commits](https://github-basic-badges.herokuapp.com/commits/miykael/gif_your_nifti.svg)](https://github.com/miykael/gif_your_nifti/commits/master)
 [![GitHub size](https://github-size-badge.herokuapp.com/miykael/gif_your_nifti.svg)](https://github.com/miykael/gif_your_nifti/archive/master.zip)
 
-# Gif your nifti
+# NIfTI to GIF
+
+
+The following repository is heavily based on `Gif your nifti <https://github.com/lukassnoek/nifti2gif>`_ package by `Lukas Snoek <https://github.com/lukassnoek>`_ . I forked the repository, and I pushed it to the PyPI repository, so that it is now available via the ``pip` command. See the PyPI repository of the ``nifti2gif`` project: https://pypi.org/project/nifti2gif/0.0.1/
+
 Create nice looking gifs from your nifti (`.nii` or `.nii.gz`) files with a simple command:
 
 ```
