@@ -16,6 +16,7 @@ Installation
 
 ``pip install nifti2gif``
 
-# License
+License
+-------
 
 This project is licensed under [BSD 3-Clause License](LICENSE.md).
