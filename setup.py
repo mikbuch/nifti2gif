@@ -1,5 +1,7 @@
 """nifti2gif setup."""
 
+import os
+
 from setuptools import setup, find_packages
 
 VERSION = '0.0.1'
@@ -7,6 +9,7 @@ VERSION = '0.0.1'
 setup(name='nifti2gif',
       version=VERSION,
       description='Create GIF from NIfTI image.',
+      long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
       author='Mikolaj Buchwald',
       author_email='mikolaj.buchwald@gmail.com',
       url='https://github.com/mikbuch/nifti2gif',
