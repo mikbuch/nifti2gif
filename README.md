@@ -1,7 +1,10 @@
 # NIfTI to GIF
 
+## Foreword
 
-The following repository is heavily based on [`Gif your nifti`](https://github.com/lukassnoek/nifti2gif)_ package by (`Lukas Snoek`)[https://github.com/lukassnoek>]. I forked the repository, and I pushed it to the PyPI repository, so that it is now available via the `pip` command. See the PyPI repository of the `nifti2gif` project: https://pypi.org/project/nifti2gif/
+The following repository is heavily based on [Gif_your_nifti](https://github.com/lukassnoek/nifti2gif) package by [Lukas Snoek](https://github.com/lukassnoek). I forked the repository, and I pushed it to the PyPI repository, so that it is now available via the `pip` command. See the PyPI repository of the `nifti2gif` project: https://pypi.org/project/nifti2gif/
+
+## Quick installation
 
 In order to install:
 
@@ -132,6 +135,32 @@ Changing the size of a gif also changes the frames per second parameter, so that
 ### Use within a python script
 
 You can also use `gif_your_nifti` from a python script. See [script examples](examples/example_script.py) for further information.
+
+## Uploading to PyPI repository
+
+Build the project:
+
+```shell
+python setup.py sdist
+```
+
+Upload with `twine` (`pip install twine`):
+
+```shell
+twine upload dist/* 
+```
+
+Type your username and password to PyPI.
+
+### Troubleshooting with uploading to PyPI
+
+Check, e.g., for syntax errors in the description file (README):
+
+```shell
+twine check dist/*
+```
+
+
 
 # License
 
